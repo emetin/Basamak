@@ -14,13 +14,13 @@ void main()
         birler = sayi % 10;
         printf("%dAdet birlik sayi,\n", birler);
 
-		onlar = ((sayi % 100) - (sayi % 10)) / 10;
+	onlar = ((sayi % 100) - (sayi % 10)) / 10;
         printf("%dAdet onluk sayi,\n", onlar);
 
-		yuzler = ((sayi % 1000) - (sayi % 100)) / 100;
+	yuzler = ((sayi % 1000) - (sayi % 100)) / 100;
         printf("%dAdet yuzluk sayi,\n", yuzler);
 
-		binler = (sayi - (sayi % 1000)) / 1000;
+	binler = (sayi - (sayi % 1000)) / 1000;
         printf("%dAdet binlik sayi vardir.\n", binler);
         } // if koşulu sonu.
         else//if koşulu sağlanmadığında else sağlanır.
