@@ -6,9 +6,7 @@ void main()
 
  printf("Sayiyi giriniz= "); //Kulanıcıdan program için sayi istenir.
  scanf_s("%d", &sayi);
- printf("\n");
  printf("Girilen sayi %d.\n", sayi);
- printf("\n");
        if (sayi >= 1000 && sayi <= 9999)//Sayının if koşulu kontrol edilir.
        {
         birler = sayi % 10;
